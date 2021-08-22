@@ -76,7 +76,7 @@ const collectLink = async (url, depth_link) => {
   arrayLink.push(url)
   if (depth_link.length >= 1) {
     for (let i = 0; i < depth_link.length; i++) {
-      // Configurable Depth (Please change 2 to number you want)
+      // Configurable Level of Depthness (Please change number 2 to number you want)
       if (i < 2) {
         arrayLink.push(depth_link[i].attribs.href)
       }
