@@ -1,0 +1,21 @@
+{
+  "name": "web_scrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kompasParse.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/arya020595/web-scraper-kompas.git",
+  "author": "arya rifqi pratama <arya.rifqi@alodokter.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arya020595/web-scraper-kompas/issues"
+  },
+  "homepage": "https://github.com/arya020595/web-scraper-kompas#readme"
+}
